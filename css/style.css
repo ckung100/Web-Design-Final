@@ -27,7 +27,8 @@ h2{
     color: orange;
 }
 
-section{
+#section{
+    position: relative;
     padding-top: 520px;
     background-color: white;
 
@@ -65,18 +66,21 @@ a{
     padding-left: 340px;
 }
 
-content{
+#designfoundations, #webdesign, #content{
+    position: relative;
     float: left;
     column-count: 3;
     column-gap: 8px;
     padding-bottom: 10%;
 }
-content p{
-    font-family: 'Roboto Condensed', sans-serif;    display: inline;
+#content p{
+    font-family: 'Roboto Condensed', sans-serif;    
+    display: inline;
     float: left;
+    line-height: 1.2em;
 }
 
-content img{
+#main img{
     display:inline;
     float: left;
     background-color: none;
