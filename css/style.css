@@ -68,21 +68,21 @@ a{
 
 #designfoundations, #webdesign, #content{
     position: relative;
-    float: left;
     column-count: 3;
     column-gap: 8px;
+    -moz-column-count:3;
     padding-bottom: 10%;
 }
+
 #content p{
-    font-family: 'Roboto Condensed', sans-serif;    
-    display: inline;
-    float: left;
+    position: relative;
+    font-family: 'Roboto Condensed', sans-serif;
+    display: inline-block;
     line-height: 1.2em;
 }
 
 #main img{
-    display:inline;
-    float: left;
+    display: inline;
     background-color: none;
     width: 100%;
     padding: 4px;
